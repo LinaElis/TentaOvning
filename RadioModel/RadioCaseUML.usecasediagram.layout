@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RadioCaseUML">
+  <useCaseModelRootMoniker Id="0a59cf94-cd93-4f59-8df5-8c71ca62d754" />
+  <nestedChildShapes>
+    <actorShape Id="878551b2-510f-4944-8d1d-3236325ef0b6" absoluteBounds="1.25, 1.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="89f94dd1-c58d-42b2-93ab-a159dcb21077" LastKnownName="Listener" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="04c09903-407e-4ba7-a0b5-29895a96a6fb" absoluteBounds="6.75, 1.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="e9294bf0-21d7-4ca0-a18e-6d4e7a0d0f24" LastKnownName="Broadcaster" />
+      <relativeChildShapes />
+    </actorShape>
+    <commentShape Id="7b4683bc-f5d2-43ba-ad05-022a0f053b9c" absoluteBounds="1, 0.875, 1.5, 0.75" customColor="251, 247, 200">
+      <commentMoniker Id="6ac986f2-efb4-416e-b100-b0872a5e8237" />
+      <relativeChildShapes />
+    </commentShape>
+    <SubsystemShape Id="427e7dfa-0240-4dd4-942b-4f6b206e2b4d" absoluteBounds="2.75, 0.75, 3.25, 2.875" customColor="White">
+      <subsystemMoniker Id="1eac37cc-e3de-4119-bf53-e6d1b3966a40" LastKnownName="RadioSystem" />
+      <nestedChildShapes>
+        <useCaseShape Id="8f17e98e-a51e-419b-b647-92f72afb8a24" absoluteBounds="3.875, 1.75, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="90e21ca9-b24f-4c58-8f49-5077f313f4ca" LastKnownName="Listen music / radioprogram" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 2.13010204081633); (3.87535326856692 : 2.17347659731769)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a702b4f6-fd20-4b41-9dc3-cc54ba35c246" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="878551b2-510f-4944-8d1d-3236325ef0b6" />
+        <useCaseShapeMoniker Id="8f17e98e-a51e-419b-b647-92f72afb8a24" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
